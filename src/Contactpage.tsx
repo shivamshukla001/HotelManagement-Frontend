@@ -1,6 +1,4 @@
-import React from 'react'
-import Footer from './content/Footer'
-// import Footer from './content/Footer'
+
 
 const Contactpage = () => {
   return (

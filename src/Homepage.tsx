@@ -1,7 +1,7 @@
 
 
 import Banner from './content/Banner'
-import Footer from './content/Footer'
+
 
 
 const Homepage = () => {

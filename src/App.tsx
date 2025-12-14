@@ -5,7 +5,7 @@ import Navbar from './content/Navbar'
 import AboutPage from './AboutPage'
 import Contactpage from './Contactpage'
 import BookNow from './BookNow'
-// import Footer from './content/Footer'
+
 import Register from './content/Register'
 import Login from './content/Login'
 import DashBoard from './DashBoard'
