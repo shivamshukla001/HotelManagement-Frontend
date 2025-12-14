@@ -112,7 +112,7 @@ export default function Book() {
         submitData.append("idProof", formData.idProof);
       }
 
-      const response = await fetch("http://localhost:8000/api/v1/user", {
+      const response = await fetch("https://hotel-management-backend-1-kcjn.onrender.com/api/v1/user", {
         method: "POST",
         body: submitData,
       });
