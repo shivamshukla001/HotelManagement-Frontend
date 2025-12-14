@@ -7,7 +7,7 @@ const Register = () => {
     const onSubmit = async (data: any) => {
         console.log(data);
         try {
-            const response = await fetch('http://localhost:8000/api/v1/register', {
+            const response = await fetch('https://hotel-management-backend-1-kcjn.onrender.com/api/v1/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -30,7 +30,7 @@ const Register = () => {
      const onSubmit2 = async (data: any) => {
         // console.log(data);
         try {
-            const response = await fetch('http://localhost:8000/api/v1/register', {
+            const response = await fetch('https://hotel-management-backend-1-kcjn.onrender.com/api/v1/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

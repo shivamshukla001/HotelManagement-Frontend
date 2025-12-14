@@ -10,7 +10,7 @@ const AllInfo = () => {
         async function getAllInfo() {
             try {
                 
-                const response = await axios.get(`http://localhost:8000/api/v1/getAllInfo/${id}`);
+                const response = await axios.get(`https://hotel-management-backend-1-kcjn.onrender.com/api/v1/getAllInfo/${id}`);
                 setAllData(response.data)
             } catch (error) {
                 console.error('Error fetching data:', error)

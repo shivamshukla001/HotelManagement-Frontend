@@ -6,7 +6,7 @@ const DashBoard = () => {
     const [data, setData] = useState([])
     useEffect(() => {
         async function getAllInfo() {
-            const response = await axios.get('http://localhost:8000/api/v1/getAllInfo');
+            const response = await axios.get('https://hotel-management-backend-1-kcjn.onrender.com/api/v1/getAllInfo');
             setData(response.data)
         }
         getAllInfo();
